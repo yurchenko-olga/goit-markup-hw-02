@@ -17,7 +17,7 @@
 }
 
 .nav-list-link {
-  font-family: var(--primary-font-family);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -31,7 +31,7 @@
 
 .contact-mailto,
 .contact-number {
-  font-family: var(--primary-font-family);
+ 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -75,7 +75,7 @@
 
 
 .mobal-btn {
-  font-family: var(--primary-font-family);
+ 
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -97,7 +97,7 @@
 }
 
 .img-name-team {
-  font-family: var(--primary-font-family);
+ 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -106,7 +106,7 @@
   color: #212121;
   }
 .img-name-project {
-  font-family: var(--primary-font-family);
+ 
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -115,7 +115,7 @@
 
   }
 .img-position-team{
-  font-family: var(--primary-font-family);
+ 
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -123,7 +123,7 @@
   color: #757575;
   }
 .img-description-project {
-  font-family: var(--primary-font-family);
+
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -142,7 +142,7 @@
 }
 
 .main-title {
-  font-family: var(--primary-font-family);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -179,7 +179,7 @@
 
 
 .specifics-theme {
-  font-family: var(--primary-font-family);
+ 
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -188,7 +188,7 @@
   color: #212121;
 }
 .specifics-description {
-  font-family: var(--primary-font-family);
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -239,7 +239,7 @@
 
 
 .title-img {
-  font-family: var(--primary-font-family);
+ 
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -274,10 +274,11 @@
   width: 1600px;
   height: 648px;
   left: 0px;
-  top: 1449px;*/
-}
+  top: 1449px;
+  */
+
 .title-img {
-  font-family: var(--primary-font-family);
+ 
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -335,7 +336,7 @@ top: 1635px;
 
 
 .address-houce {
-  font-family: var(--primary-font-family);
+ 
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -344,7 +345,7 @@ top: 1635px;
   color:#ffffff
 }
 .address-mailto {
-  font-family: var(--primary-font-family);
+ 
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -353,7 +354,7 @@ top: 1635px;
   color: rgba(255, 255, 255, 0.6);
 }
 .address-phone {
-  font-family: var(--primary-font-family);
+ 
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
