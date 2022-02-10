@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,32 +8,30 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
-    
-    <link rel="stylesheet" href="./CSS/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body class="body">
-
     <header class="header" >
         <nav class="navigation">
-
-        <a class="logo link" href="логотип">
+        <a class="logo link" href="/" aria-label="логотип сайта">
+        
             <p><span class="logo-web">Web</span> <span class="logo-studio">Studio</span> </p>
         </a>
-
-        <ul class="nav-list">
+        <ul class="nav-list list">
             <li class="nav-list-item">
-                <a class="nav-list-link" href="">Студия</a></li>
+                <a class="nav-list-link link active-page" href="">Студия</a></li>
             <li class="nav-list-item">
-                <a class="nav-list-link" href="./portfolio.html">Портфолио</a></li>
+                <a class="nav-list-link link " href="./portfolio.html">Портфолио</a></li>
             <li class="nav-list-item">
-                <a class="nav-list-link" href="">Контакты</a></li>
+                <a class="nav-list-link link" href="">Контакты</a></li>
         </ul>
         </nav>
-
         <a class="contact-mailto link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a class="contact-number link" href="tel:+380961111111">+38 096 111 11 11</a>
     </header>
@@ -111,14 +109,16 @@
     </main>
 
     <footer class="footer">
-        <a class="logo link" href="логотип">
+
+
+        <a class="logo link" href="/" aria-label="логотип сайта">
             <p><span class="logo-web">Web</span> <span class="logo-studio footer-logo-studio">Studio</span> </p>
             </a>
+
         <address class="footer-address list">
             <ul>
                 <li class="address-houce"> г. Киев, пр-т Леси Украинки, 26 ></li>
-                <li class="address-mailto"> info@example.com </li>
-                <li class="address-phone"> +38 099 111 11 11 </li>
+                <li class="address-mailto-phone"> info@example.com <br> +38 099 111 11 11 </li>
             </ul>
     </address>
     </footer>
