@@ -131,7 +131,7 @@ li {
 }
 /* ========= END HERO ========= */
 /* ========= START ABOUT ========= */
-.about {
+/*.about {*/
   /*position: absolute;
   width: 1170px;
   height: 386px;
@@ -186,8 +186,8 @@ top: 2097px;*/
 }
 /* ========= END FOOTER ========= */
 /* ==========START  PORTFOLIO ========== */
-.portfolio {
-}
+/*.portfolio {
+}*/
 
 .portfolio-filter-btn {
   background: var(--button-portfolio-color);
